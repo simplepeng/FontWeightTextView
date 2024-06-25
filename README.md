@@ -27,6 +27,33 @@
 
 ## 或FontWeightValueTextView
 
+```xml
+<me.simple.fwtv.FontWeightValueTextView
+    style="@style/WeightTextStyle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Medium"
+    app:fontWeightValue="medium" />
 ```
 
+`fontWeightValue`支持以下属性：
+
+```xml
+<declare-styleable name="FontWeightValueTextView">
+    <attr name="fontWeightValue" format="enum">
+        <enum name="thin" value="100" />"
+        <enum name="extraLight" value="200" />"
+        <enum name="light" value="300" />"
+        <enum name="normal" value="400" />"
+        <enum name="medium" value="500" />"
+        <enum name="semiBold" value="600" />"
+        <enum name="bold" value="700" />"
+        <enum name="extraBold" value="800" />"
+        <enum name="black" value="900" />"
+    </attr>
+</declare-styleable>
 ```
+
+## 版本发布
+
+* v1.0.0 - 首次发布
