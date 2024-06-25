@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontWeightTextView">
+        <attr name="android:textFontWeight" format="integer" />
+        <attr name="textFontWeight" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="FontWeightValueTextView">
+        <attr name="fontWeightValue" format="enum">
+            <enum name="thin" value="100" />"
+            <enum name="extraLight" value="200" />"
+            <enum name="light" value="300" />"
+            <enum name="normal" value="400" />"
+            <enum name="medium" value="500" />"
+            <enum name="semiBold" value="600" />"
+            <enum name="bold" value="700" />"
+            <enum name="extraBold" value="800" />"
+            <enum name="black" value="900" />"
+        </attr>
+    </declare-styleable>
+</resources>
