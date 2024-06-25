@@ -9,7 +9,11 @@
 ## 导入依赖
 
 ```kotlin
+maven { url 'https://jitpack.io' }
+```
 
+```kotlin
+implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
 ```
 
 ## 添加FontWeightTextView

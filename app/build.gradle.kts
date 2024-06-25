@@ -43,5 +43,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(project(":font_weight_textview"))
+//    implementation(project(":font_weight_textview"))
+    implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
 }
