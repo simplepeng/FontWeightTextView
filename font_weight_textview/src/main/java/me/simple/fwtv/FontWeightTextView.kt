@@ -40,7 +40,7 @@ open class FontWeightTextView @JvmOverloads constructor(
     fun getFontWeight() = mFontWeight
 
     fun setFontWeight(
-        @IntRange(from = 100, to = 1000) weight: Int
+        @IntRange(from = 1, to = 1000) weight: Int
     ) {
         mFontWeight = weight
         TypefaceCompat.create(context, typeface, weight, typeface.isItalic).let {
