@@ -5,13 +5,13 @@ plugins {
 
 android {
     namespace = "demo.simple.fontweighttextview"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "demo.simple.fontweighttextview"
         //com.google.android.material:material:1.12.0 - 19
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -34,15 +34,15 @@ android {
 }
 
 dependencies {
-    implementation(libs.androidx.core.ktx)
+//    implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.androidx.activity)
+//    implementation(libs.material)
+//    implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
+//    testImplementation(libs.junit)
+//    androidTestImplementation(libs.androidx.junit)
+//    androidTestImplementation(libs.androidx.espresso.core)
 
-//    implementation(project(":font_weight_textview"))
-    implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
+    implementation(project(":font_weight_textview"))
+//    implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
 }
