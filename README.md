@@ -13,7 +13,10 @@ maven { url 'https://jitpack.io' }
 ```
 
 ```kotlin
-implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
+//compileSdk=34(appcompat:1.7.0) - 导入依赖
+implementation("com.github.simplepeng:FontWeightTextView:1.0.0") 
+// 或 compileSdk=34(appcompat:1.6.1) - 导入依赖
+implementation("com.github.simplepeng:FontWeightTextView:compat_161")
 ```
 
 ## 添加FontWeightTextView
