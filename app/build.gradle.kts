@@ -46,4 +46,5 @@ dependencies {
 //    implementation(project(":font_weight_textview"))
 //    implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
     implementation("com.github.simplepeng:FontWeightTextView:compat_161")
+    implementation("top.canyie.pine:core:0.2.9")
 }
