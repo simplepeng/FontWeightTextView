@@ -5,13 +5,13 @@ plugins {
 
 android {
     namespace = "demo.simple.fontweighttextview"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "demo.simple.fontweighttextview"
         //com.google.android.material:material:1.12.0 - 19
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 

@@ -1,16 +1,25 @@
 package demo.simple.fontweighttextview
 
+import android.annotation.SuppressLint
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
+import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
-//    private val tvAndroid by lazy { findViewById<TextView>(R.id.tvAndroid) }
+    //    private val tvAndroid by lazy { findViewById<TextView>(R.id.tvAndroid) }
 
+    companion object {
+        const val TAG = "MainActivity"
+    }
+
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        enableEdgeToEdge()
@@ -24,6 +33,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         bindAndroidVersion()
+
+//        findViewById<View>(R.id.textView1).setOnClickListener {
+//            val isAppCompatTextView = it is AppCompatTextView
+//            Log.d(TAG, "isAppCompatTextView: $isAppCompatTextView")
+//        }
     }
 
     private fun bindAndroidVersion() {
