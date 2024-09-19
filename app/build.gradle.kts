@@ -35,7 +35,7 @@ android {
 
 dependencies {
 //    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
+//    implementation(libs.androidx.appcompat)
 //    implementation(libs.material)
 //    implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
@@ -43,8 +43,11 @@ dependencies {
 //    androidTestImplementation(libs.androidx.junit)
 //    androidTestImplementation(libs.androidx.espresso.core)
 
-//    implementation(project(":font_weight_textview"))
+    implementation(project(":font_weight_textview"))
 //    implementation("com.github.simplepeng:FontWeightTextView:1.0.0")
-    implementation("com.github.simplepeng:FontWeightTextView:compat_161")
+//    implementation("com.github.simplepeng:FontWeightTextView:compat_161")
     implementation("top.canyie.pine:core:0.2.9")
+    //
+//    implementation("androidx.appcompat:appcompat:1.7.0")
+//    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
