@@ -98,6 +98,7 @@
 <!--                android:textFontWeight="800" />-->
 
             <demo.simple.fontweighttextview.WeightPrinterTextView
+                android:id="@+id/textView1"
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

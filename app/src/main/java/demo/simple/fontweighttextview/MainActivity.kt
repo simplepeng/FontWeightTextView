@@ -1,11 +1,9 @@
 package demo.simple.fontweighttextview
 
 import android.annotation.SuppressLint
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.core.view.ViewCompat
@@ -34,10 +32,10 @@ class MainActivity : AppCompatActivity() {
 
         bindAndroidVersion()
 
-//        findViewById<View>(R.id.textView1).setOnClickListener {
-//            val isAppCompatTextView = it is AppCompatTextView
-//            Log.d(TAG, "isAppCompatTextView: $isAppCompatTextView")
-//        }
+        findViewById<View>(R.id.textView1).setOnClickListener {
+            val isAppCompatTextView = it is AppCompatTextView
+            Log.d(TAG, "isAppCompatTextView: $isAppCompatTextView")
+        }
     }
 
     private fun bindAndroidVersion() {
