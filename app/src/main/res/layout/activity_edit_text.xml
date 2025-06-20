@@ -47,56 +47,56 @@
                 android:text="Font100"
                 android:textFontWeight="100" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font200"
                 android:textFontWeight="200" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font300"
                 android:textFontWeight="300" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font400"
                 android:textFontWeight="400" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font500"
                 android:textFontWeight="500" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font600"
                 android:textFontWeight="600" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font700"
                 android:textFontWeight="700" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Font800"
                 android:textFontWeight="800" />
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 android:id="@+id/textView1"
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
