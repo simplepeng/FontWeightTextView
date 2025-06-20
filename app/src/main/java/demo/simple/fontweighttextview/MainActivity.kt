@@ -1,6 +1,7 @@
 package demo.simple.fontweighttextview
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
@@ -14,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
 
     private val tvAndroid: TextView by lazy { findViewById<TextView>(R.id.tvAndroid) }
+    private val btnEditText: TextView by lazy { findViewById<TextView>(R.id.btnEditText) }
 
     companion object {
         const val TAG = "MainActivity"
@@ -37,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.textView1).setOnClickListener {
             val isAppCompatTextView = it is AppCompatTextView
             Log.d(TAG, "isAppCompatTextView: $isAppCompatTextView")
+        }
+        btnEditText.setOnClickListener {
+            startActivity(Intent(this, EditTextActivity::class.java))
         }
     }
 

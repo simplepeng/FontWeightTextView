@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <demo.simple.fontweighttextview.WeightPrinterTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -248,78 +248,68 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Thin"
-                app:fontWeightValue="thin" />
+                app:et_fontWeightValue="thin" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Extra Light"
-                app:fontWeightValue="extraLight" />
+                app:et_fontWeightValue="extraLight" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Light"
-                app:fontWeightValue="light" />
+                app:et_fontWeightValue="light" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Normal"
-                app:fontWeightValue="normal" />
+                app:et_fontWeightValue="normal" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Medium"
-                app:fontWeightValue="medium" />
+                app:et_fontWeightValue="medium" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Semi Bold"
-                app:fontWeightValue="semiBold" />
+                app:et_fontWeightValue="semiBold" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Bold"
-                app:fontWeightValue="bold" />
+                app:et_fontWeightValue="bold" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Extra Bold"
-                app:fontWeightValue="extraBold" />
+                app:et_fontWeightValue="extraBold" />
 
-            <me.simple.fwtv.FontWeightValueTextView
+            <me.simple.fwtv.FontWeightValueEditText
                 style="@style/WeightTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Black"
-                app:fontWeightValue="black" />
+                app:et_fontWeightValue="black" />
         </LinearLayout>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/btnEditText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="EditText"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_margin="10dp"
-        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
