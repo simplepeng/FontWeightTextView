@@ -110,68 +110,68 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文100"
-                android:textFontWeight="100" />
+                app:et_fontWeight="100" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文200"
-                android:textFontWeight="200" />
+                app:et_fontWeight="200" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文300"
-                android:textFontWeight="300" />
+                app:et_fontWeight="300" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文400"
-                android:textFontWeight="400" />
+                app:et_fontWeight="400" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文500"
-                android:textFontWeight="500" />
+                app:et_fontWeight="500" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文600"
-                android:textFontWeight="600" />
+                app:et_fontWeight="600" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文700"
-                android:textFontWeight="700" />
+                app:et_fontWeight="700" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文800"
-                android:textFontWeight="800" />
+                app:et_fontWeight="800" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/TextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="中文900"
-                android:textFontWeight="900" />
+                app:et_fontWeight="900" />
         </LinearLayout>
 
         <LinearLayout
@@ -179,68 +179,68 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义100"
-                app:textFontWeight="100" />
+                app:et_fontWeight="100" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义200"
-                app:textFontWeight="200" />
+                app:et_fontWeight="200" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义300"
-                app:textFontWeight="300" />
+                app:et_fontWeight="300" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义400"
-                app:textFontWeight="400" />
+                app:et_fontWeight="400" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义500"
-                app:textFontWeight="500" />
+                app:et_fontWeight="500" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义600"
-                app:textFontWeight="600" />
+                app:et_fontWeight="600" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义700"
-                app:textFontWeight="700" />
+                app:et_fontWeight="700" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义800"
-                app:textFontWeight="800" />
+                app:et_fontWeight="800" />
 
-            <me.simple.fwtv.FontWeightTextView
+            <me.simple.fwtv.FontWeightEditText
                 style="@style/CustomTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="自定义900"
-                app:textFontWeight="900" />
+                app:et_fontWeight="900" />
         </LinearLayout>
 
         <LinearLayout
