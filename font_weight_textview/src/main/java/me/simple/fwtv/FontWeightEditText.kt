@@ -22,8 +22,8 @@ open class FontWeightEditText @JvmOverloads constructor(
         context.withStyledAttributes(attrs, R.styleable.FontWeightEditText) {
             if (hasValue(R.styleable.FontWeightEditText_android_textFontWeight)) {
                 mFontWeight = getInt(R.styleable.FontWeightEditText_android_textFontWeight, FONT_WEIGHT_UNSPECIFIED)
-            } else if (hasValue(R.styleable.FontWeightEditText_textFontWeight)) {
-                mFontWeight = getInt(R.styleable.FontWeightEditText_textFontWeight, FONT_WEIGHT_UNSPECIFIED)
+            } else if (hasValue(R.styleable.FontWeightEditText_et_fontWeight)) {
+                mFontWeight = getInt(R.styleable.FontWeightEditText_et_fontWeight, FONT_WEIGHT_UNSPECIFIED)
             }
         }
 

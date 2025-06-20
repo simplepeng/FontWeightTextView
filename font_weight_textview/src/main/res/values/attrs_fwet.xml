@@ -3,7 +3,7 @@
 
     <declare-styleable name="FontWeightEditText">
         <attr name="android:textFontWeight" format="integer" />
-        <attr name="textFontWeight" format="integer" />
+        <attr name="et_fontWeight" format="integer" />
     </declare-styleable>
 
     <declare-styleable name="FontWeightValueEditText">
