@@ -14,12 +14,12 @@ maven { url 'https://jitpack.io' }
 
 ```kotlin
 //compileSdk=34(appcompat:1.7.0) - 导入依赖
-implementation("com.github.simplepeng:FontWeightTextView:1.0.0") 
+implementation("com.github.simplepeng:FontWeightTextView:1.1.0") 
 // 或 compileSdk=34(appcompat:1.6.1) - 导入依赖
 implementation("com.github.simplepeng:FontWeightTextView:compat_161")
 ```
 
-## 添加FontWeightTextView
+## 添加`FontWeightTextView`或`FontWeightEditText`
 
 ```xml
 <me.simple.fwtv.FontWeightTextView
@@ -72,4 +72,5 @@ implementation("com.github.simplepeng:FontWeightTextView:compat_161")
 
 ## 版本发布
 
+* v1.1.0 - 新增`FontWeightEditText`和`FontWeightValueEditText`
 * v1.0.0 - 首次发布
