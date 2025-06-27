@@ -32,7 +32,7 @@ implementation("com.github.simplepeng:FontWeightTextView:compat_161")
 
 `textFontWeight`属性支持`1-1000`的数值。
 
-## 或FontWeightValueTextView
+## `FontWeightValueTextView`或`FontWeightValueEditText`
 
 ```xml
 <me.simple.fwtv.FontWeightValueTextView
